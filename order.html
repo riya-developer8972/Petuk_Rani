@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App Order Page</title>
+    <link rel="stylesheet" href="styles.css">
+   <style>
+    .body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #080c54; /* Light blue background */
+    }
+    .container {
+        background-color: #d323aa; /* White box */
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+    }
+    header {
+        background-color: #0b129a; /* Green header */
+        color: white;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+    }
+    label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #333333;
+    }
+    input[type="text"], select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px;
+        border: 1px solid #bf0707;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+            background-color: #4CAF50; /* Green button */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #4922b5;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #777777;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Order</h1>
+    </header>
+    <main>
+        <section>
+            
+         
+
+               
+
+                <label for="address">Delivery Address:</label>
+                <input type="text" id="address" name="address" required>
+                <br>
+
+                <label for="paymentMethod">Payment Method:</label>
+                <select id="paymentMethod" name="paymentMethod" required>
+                    <option value="creditCard">Debit Card</option>
+                    <option value="debitCard">Cash On Delivary</option>
+                +
+                    <option value="upi">UPI</option>
+                </select>
+                <br>
+
+                <label for="orderNotes">Order Notes:</label>
+                <textarea id="orderNotes" name="orderNotes" placeholder="Any special requests?"></textarea>
+                <br>
+
+                <button><a href="placed.html">order</a></button>
+                <button><a href="index.html">order cancel</a></button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Food App</p>
+    </footer>
+</body>
+</html>
+
+    
