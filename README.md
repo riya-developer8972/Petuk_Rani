@@ -5,10 +5,6 @@ Welcome to **Petuk Rani**, a vibrant and responsive food ordering website built 
 
 > “Rain or Shine, It's a Fine Time to Dine” – the tagline that sums up Petuk Rani's mission to serve food lovers anytime, anywhere.
 
-## 🌐 Live Demo
-
-Coming soon... (You can deploy it via GitHub Pages or Netlify)
-
 ---
 
 ## 🖼️ Screenshots
@@ -82,7 +78,12 @@ Would you like me to create a `style.css` for consistent layout, or help set up 
 
 
 
-https://github.com/user-attachments/assets/e50e51a7-5b4d-4582-92bf-18f4b19dc38a
+
+
+
+https://github.com/user-attachments/assets/1dc59a73-b6b7-44c8-a03d-340419ea2645
+
+
 
 
 
